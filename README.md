@@ -2,9 +2,9 @@
 
 This README introduces the main technical concepts to understand Distributed Ledger Technologies, the umbrella term for emerging Blockchain and Direct Acyclic Graph (DAG) technologies.
 
-## Core "unique" concepts
+# Core "unique" concepts
 
-### Proof of Work
+## Proof of Work
 
 **Why:** For security and enabling "correct" consensus<br>
 **What:** The resulting hash that "proofs" that a certain amount of computational power has been invested<br>
@@ -23,18 +23,31 @@ One of the best ways to really understand it - implement one yourself:
 
 **Recommendation:** First try to implement it from scratch, then look at an example in a different language from your implementation and redo it.
 
-### Consensus
+## Consensus
 
-Understand the basis:
+**Why:** Required for decentralization<br>
+**What:** A dynamic way of reaching agreement in a group<br>
 
-Go deep:
+*Why is achieving consensus so difficult?*<br>
+-> Starting point: [Two generals problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
+
+*Amazing E-Mail from Satoshi in 2008 explaining how consensus & proof of work play together:*<br>
+[Email: Proof of Work to solve consensus in the Byzantine Generals Problem](https://www.mail-archive.com/cryptography@metzdowd.com/msg09997.html)
+
+[Short explanation with visuals](https://mastanbtc.github.io/blockchainnotes/consensustypes/)
+
+[Consensus in Blockchain Systems in short (Medium Article)](https://medium.com/@chrshmmmr/consensus-in-blockchain-systems-in-short-691fc7d1fefe)
+
+#### Great links to deepen the understanding of Consensus Systems:
+
+[Consensus in Blockchain Systems (David Terry, Video)](https://www.youtube.com/watch?v=6P8OWKRaz2k&index=6&t=8s&list=PLJ126e0nszLcdzW8lzA4hjYLZh5YvSaTu)
+
+[Consensus Systems with Ethan Buchman (Podcast)](https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/)
 
 
-## Basic underlying concepts
+# Basic underlying concepts
 
 ### Public-key / private-key (asymmetric cryptography)
-
-
 
 ### Hashing function
 
